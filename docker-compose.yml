@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  imagick:
+    build: .
+    container_name: imagick
