@@ -1,4 +1,7 @@
 FROM centos:7
+
+RUN yum -y update
+
 ENV GOLANG_VERSION 1.8.1
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
