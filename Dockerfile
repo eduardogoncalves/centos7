@@ -15,7 +15,7 @@ RUN go get gopkg.in/gographics/imagick.v3/imagick
 RUN cd /tmp \
     && rm ImageMagick*.tar.gz \
     && rm -r Image*
-VOLUME [$GOPATH]
+VOLUME $GOPATH
 
 LABEL   br.com.egoncalves="Eduardo Gonçalves" \
         version="1.0" \
